@@ -8,4 +8,4 @@ instance:
 parameters:
   region: eu-west-1
   environment_name: public
-  bucket_base_name: spinrepo_state
+  bucket_base_name: spinrepo-state
