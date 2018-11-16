@@ -1,0 +1,25 @@
+/.bundle/
+/.yardoc
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
+
+# rspec failure tracking
+.rspec_status
+
+Gemfile.lock
+spin-local.yaml
+
+bin
+work
+state
+build
+dist
+*-local.yaml
+
+.terraform
+.cloudspin
+_cloudspin_created_backend.tf

@@ -1,0 +1,11 @@
+stack:
+  name: spinrepo_state
+  definition_location: 'https://github.com/cloudspinners/spin-stack-s3bucket/archive/master.zip'
+
+instance:
+  group: public
+
+parameters:
+  region: eu-west-1
+  environment_name: public
+  bucket_base_name: spinrepo_state
