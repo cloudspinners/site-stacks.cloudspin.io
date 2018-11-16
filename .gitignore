@@ -10,7 +10,6 @@
 # rspec failure tracking
 .rspec_status
 
-Gemfile.lock
 spin-local.yaml
 
 bin
