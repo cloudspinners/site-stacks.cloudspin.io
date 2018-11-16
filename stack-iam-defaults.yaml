@@ -10,6 +10,6 @@ terraform_backend:
   encrypt: true
 
 parameters:
-  managed_stack_name: spinsite
-  region: "eu-west-1"
+  managed_stack_name: spinrepo_site
+  region: eu-west-1
   environment_name: public
