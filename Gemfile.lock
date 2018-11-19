@@ -3,13 +3,13 @@ GEM
   specs:
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
-    aws-sdk (2.11.171)
-      aws-sdk-resources (= 2.11.171)
-    aws-sdk-core (2.11.171)
+    aws-sdk (2.11.173)
+      aws-sdk-resources (= 2.11.173)
+    aws-sdk-core (2.11.173)
       aws-sigv4 (~> 1.0)
       jmespath (~> 1.0)
-    aws-sdk-resources (2.11.171)
-      aws-sdk-core (= 2.11.171)
+    aws-sdk-resources (2.11.173)
+      aws-sdk-core (= 2.11.173)
     aws-sigv4 (1.0.3)
     azure_graph_rbac (0.17.0)
       ms_rest_azure (~> 0.11.0)
@@ -18,12 +18,9 @@ GEM
     azure_mgmt_resources (0.17.2)
       ms_rest_azure (~> 0.11.0)
     builder (3.2.3)
-    cloudspin-stack (0.1.30)
+    cloudspin-stack (0.1.31)
       ruby-terraform
       rubyzip
-      thor
-    cloudspin-stack-artefact (0.1.10)
-      cloudspin-stack
       thor
     cloudspin-stack-rake (0.1.22)
       cloudspin-stack
@@ -76,7 +73,7 @@ GEM
       domain_name (~> 0.5)
     httpclient (2.8.3)
     inifile (3.0.0)
-    inspec (2.3.24)
+    inspec (3.0.52)
       addressable (~> 2.4)
       faraday (>= 0.9.0)
       faraday_middleware (~> 0.12.2)
@@ -97,7 +94,7 @@ GEM
       term-ansicolor
       thor (~> 0.20)
       tomlrb (~> 1.2)
-      train (~> 1.5)
+      train (~> 1.5, >= 1.5.6)
     jmespath (1.4.0)
     json (2.1.0)
     jwt (2.1.0)
@@ -160,7 +157,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.8.0)
     rspec-support (3.8.0)
-    ruby-terraform (0.15.0)
+    ruby-terraform (0.18.0)
       lino (~> 1.1)
     rubyntlm (0.6.2)
     rubyzip (1.2.2)
@@ -216,9 +213,7 @@ PLATFORMS
 
 DEPENDENCIES
   cloudspin-stack
-  cloudspin-stack-artefact
   cloudspin-stack-rake
-  inspec (~> 2.3)
 
 BUNDLED WITH
    1.17.1

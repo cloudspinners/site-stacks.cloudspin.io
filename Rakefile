@@ -6,10 +6,11 @@ CLOBBER.include('state')
 
 include Cloudspin::Stack::Rake
 
-StackTask.new.instance
+namespace :site do
+  StackTask.new.instance
+end
 
-namespace :bootstrap do
-
+namespace :setup do
   namespace :iam do
     StackTask.new(
       configuration_files: [ 
@@ -27,5 +28,4 @@ namespace :bootstrap do
       ]
     )
   end
-
 end
