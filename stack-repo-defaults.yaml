@@ -1,5 +1,5 @@
 stack:
-  name: spinrepo_site
+  name: stackrepo_site
 
 instance:
   group: public
@@ -8,3 +8,6 @@ parameters:
   region: eu-west-1
   availability_zones: "eu-west-1a,eu-west-1b,eu-west-1c"
   environment_name: public
+
+terraform_backend:
+  region: eu-west-1

@@ -1,5 +1,5 @@
 stack:
-  name: spinrepo_iam
+  name: stackrepo_iam
   definition_location: 'https://github.com/cloudspinners/spin-stack-iam-roles/archive/master.zip'
 
 instance:
@@ -10,6 +10,6 @@ terraform_backend:
   encrypt: true
 
 parameters:
-  managed_stack_name: spinrepo_site
+  managed_stack_name: stackrepo_site
   region: eu-west-1
   environment_name: public

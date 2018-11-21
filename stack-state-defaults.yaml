@@ -1,5 +1,5 @@
 stack:
-  name: spinrepo_state
+  name: stackrepo_state
   definition_location: 'https://github.com/cloudspinners/spin-stack-s3bucket/archive/master.zip'
 
 instance:
@@ -8,4 +8,4 @@ instance:
 parameters:
   region: eu-west-1
   environment_name: public
-  bucket_base_name: spinrepo-state
+  bucket_base_name: stackrepo-state
